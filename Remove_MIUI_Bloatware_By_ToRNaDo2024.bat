@@ -25,7 +25,7 @@ echo:
 echo:  
 
 
-REM call :_color2 %_White% "           " %_Green% "Enter a menu option in the Keyboard:"
+
 choice /C:120 /N
 set _erl=%errorlevel%
 
